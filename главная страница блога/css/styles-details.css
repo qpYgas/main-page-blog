@@ -1,0 +1,130 @@
+.body{
+    font-family: "Inter-Regular";
+    margin: 0;
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(..//fonts/Inter-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(..//fonts/Inter-Regular.ttf);
+    font-weight: 400;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:36px 80px 44px;
+
+    
+}
+.title{
+    font-family: "Inter-Bold";
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.search-menu{
+    width: 75px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    width: 260px;
+}
+.nav-text{
+    text-decoration: none;
+    transition: 0.2s;
+}
+.nav-text:hover{
+    background-color: grey;
+}
+.search_in{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: 0px;
+    padding-left: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 90px 58px;
+}
+.first-block{
+    padding: 41px 238px 31px 103px;
+    border-bottom: 1px solid #E8E7E7;;
+}
+.first-block_title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #2D3748;
+    margin: 0%;
+}
+.first-block_info{
+    display: flex;
+    margin-top: 19px;
+}
+.first-block_info_autor{
+    font-weight: 700;
+    font-size: 18px;
+    color: #2D3748;
+    margin: 0;
+}
+.first-block_info_date{
+    font-weight: 400;
+    font-size: 18px;
+    color: #718096;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.footer{
+    border-top: 1px solid #E8E8E8;
+    
+}
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 100px 31px 89px;
+}
+.footer_main-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 129px ;
+}
+.second-block{
+    margin: 37.5px 105px 0px 103px;
+}
+.second-block-text{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    color: #718096;
+}
+.second-block-title-italic{
+    font-weight: 700;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    color: #2D3748;
+}
+.second-block-title{
+    color: #2D3748;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+
+}
+.return-button{
+    padding-left: 100%;
+    
+}
